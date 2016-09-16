@@ -14,7 +14,6 @@ class WingCounter extends Component {
     this.setState({
       wingCounter: this.state.wingCounter+1
     })
-    console.log(this.state.wingCounter++);
   }
   render() {
     return (
